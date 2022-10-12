@@ -1,0 +1,25 @@
+/*
+ Theme Name:     Divi Child
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Nadeem Iqbal (nadeem0035@gmail.com)
+ Author Email:   nadeem0035@gmail.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+
+/*
+Theme customization starts here
+*/
+
+.shm-studio-custom-portfolio-item .et_pb_image_5, .shm-studio-custom-portfolio-item .et_pb_image_6, .shm-studio-custom-portfolio-item .et_pb_image_7 {
+    filter: inherit !important;
+    position: inherit !important;
+}
+
+.pt_title_n_desc {
+    height: 100px;
+}
+.pt_title_n_desc .et_pb_row.et_pb_row_0 {
+        margin: 0px !important;
+    }

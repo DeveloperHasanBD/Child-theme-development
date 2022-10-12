@@ -1,0 +1,257 @@
+.portfolio_menu_top_img {
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.portfolio_bg_overlay {
+    height: 100%;
+    width: 100%;
+    /* background: rgba(0, 0, 0, .7); */
+    background: rgba(56, 53, 53, .9);
+    ;
+}
+
+/* menu  */
+
+.menu_box ul li {
+    display: inline-block;
+    font-weight: 600;
+    cursor: pointer;
+    color: #333;
+    padding-bottom: 10px;
+    line-height: 1em;
+    /* font-weight: 500; */
+    font-size: 18px;
+}
+
+.menu_box ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.menu_box ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+}
+
+
+
+.portfolio_menu {
+    padding: 0px 0px 100px 0px;
+}
+
+.filter_box h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #666;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.filter_box p {
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+.item a {
+    color: #666;
+    text-decoration: none;
+}
+
+.item a:hover {
+    color: #666;
+}
+
+.pflio_top_title h1 {
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.portfolio_bg_overlay {
+    display: flex;
+    align-items: center;
+}
+
+.portfolio_bg_overlay h1 span {
+    color: #eb2936;
+}
+
+.our_clients_area {
+    background: #f7f7f7;
+    /* background: #e6e6e6; */
+    padding: 100px 0px 60px;
+}
+
+.clients_logo {
+    text-align: right;
+}
+
+.our_clients_title h2 {
+    font-weight: 700;
+    font-size: 34px;
+    color: #E4E4E4!important;
+    line-height: 1.2em;
+}
+
+.custom_testimonial_slider {
+    background: #f7f7f7;
+    padding-bottom: 100px;
+}
+
+.slider_clients_logo img {
+    width: auto !important;
+}
+
+.cc_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.client_slider_text {
+    width: 86%;
+}
+
+.custom_testimonial_slider .owl-nav {
+    float: right;
+}
+
+.custom_dv_client_slider .owl-nav button.owl-prev {
+    margin: 0px 80px !important;
+}
+
+.custom_testimonial_slider .owl-nav button {
+    font-size: 20px !important;
+    color: #c8cac8 !important;
+}
+
+.mobile_client_logo {
+    display: none;
+}
+
+.things_change_area {
+    background: #2d2d2d;
+    padding: 120px 0px 200px;
+}
+
+.things_content p {
+    color: #fff;
+    opacity: .4;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.things_content a {
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+    font-weight: 600;
+}
+
+.things_content a:hover {
+    color: #fff;
+    opacity: .3;
+}
+
+.our_clients_title.others_version {
+    display: block;
+}
+
+.our_clients_title.mobile_version {
+    display: none;
+}
+
+.things_content a:hover svg {
+    display: none;
+}
+
+.owl-nav img {
+    opacity: .4;
+}
+
+.owl-nav img:hover {
+    opacity: .9;
+}
+
+.slider_clients_logo {
+    display: block;
+}
+@media all and (max-width: 800px) {
+    
+    
+   
+    .cc_logo {
+        display: none;
+    }
+    .custom_dv_client_slider {
+        padding: 30px;
+    }
+    .client_slider_text {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .slider_clients_logo.mobile_client_logo img {
+        display: block;
+        margin: auto;
+    }
+    .client_slider_text h2 {
+        font-size: 14px;
+        text-align: center;
+        padding: 30px 0px;
+    }
+    .custom_dv_client_slider {
+        padding-bottom: 60px;
+    }
+    .custom_testimonial_slider .owl-nav button {
+        font-size: 18px !important;
+        margin-top: 30px;
+    }
+    .our_clients_title h2 {
+        text-align: center;
+    }
+    .clients_logo {
+        text-align: center;
+        margin-top: 35px;
+    }
+    .menu_box ul li {
+        display: block;
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .menu_box ul {
+        display: inherit;
+        padding: 0px;
+    }
+    .row.grid_items .item:nth-child(2n+1) {
+        padding-right: 10px;
+    }
+    .row.grid_items .item:nth-child(2n) {
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+    .row.grid_items .item:nth-child(2n+1) {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .our_clients_area {
+        padding-top: 15px;
+    }
+    .our_clients_title.others_version {
+        display: none;
+    }
+    .our_clients_title.mobile_version {
+        padding-bottom: 10px;
+    }
+    .portfolio_menu_top_img {
+        height: 50vh;
+    }
+   
+}
